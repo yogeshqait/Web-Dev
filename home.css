@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: blanchedalmond
+    color: blanchedalmond;
 }
 
 header {
@@ -8,7 +8,7 @@ header {
     background-color: aqua;
     color: black;
     border-radius: 10px;
-    height: auto;
+    padding: 0px;
 }
 
 .headerimg {
@@ -34,7 +34,7 @@ button.signout {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 50px 40px;
+    margin: 38px 40px;
     cursor: pointer;
     float: right;
 }
@@ -47,6 +47,7 @@ button.signout {
     height: 100%;
     margin: 15px;
     padding: 10px;
+    font-size: 12px;
 } 
 
 
@@ -55,6 +56,7 @@ button.signout {
     margin-right: auto;
     width: 50%;
     display: block;
+    border-radius: 100px;
 }
 
 .infolabel  {
@@ -69,8 +71,9 @@ button.signout {
     float: right;
     width: 50%;
     position: inline;
-    margin: 10px;
+    margin: 12px;
     align-self: auto;
+    font-stretch: expanded
 }
 
 .content{
@@ -87,9 +90,31 @@ button.signout {
 footer {
     position: fixed;
     background-color: aqua;
-    left: 0;
-    bottom: 0;
+    left: 7px;
+    bottom: 5px;
     width: 100%;
     color: black;
     text-align: center;
+    border-radius: 20px;
 }
+
+.nav {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.nav a {
+     float: left;
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 20px 18px;
+     text-decoration: none;
+ }
+
+.nav a:hover {
+     background-color: black;
+     color: white;
+ }
